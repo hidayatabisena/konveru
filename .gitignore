@@ -6,3 +6,6 @@ xcuserdata/
 build/
 DerivedData/
 *.xcresult
+
+# Local release artifacts
+dist/

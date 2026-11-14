@@ -58,6 +58,20 @@ xcodebuild -project Konveru.xcodeproj -scheme Konveru test
 
 The tests exercise the real encoder using temporary JPEG, PNG, and HEIC fixtures. They cover orientation, alpha, lossless output, metadata, color profiles, filename collisions, failure handling, and cancellation.
 
+## Creating a DMG without an Apple Developer membership
+
+Run the packaging script from the repository root:
+
+```sh
+./scripts/package-dmg.sh
+```
+
+The script creates an Apple silicon Release build, applies an ad-hoc signature, verifies the app bundle, and writes `Konveru-<version>-arm64.dmg` to `dist/`. The disk image contains `Konveru.app` and a shortcut to the Applications folder.
+
+This distribution is **not notarized** because notarization requires an Apple Developer Program membership and a Developer ID certificate. On a different Mac, Gatekeeper may block the first launch. The recipient can Control-click `Konveru.app`, choose **Open**, and confirm the prompt. Do not ask recipients to disable Gatekeeper globally.
+
+Before sharing a release, test the DMG on another Apple silicon Mac and compare its SHA-256 checksum with the value printed by the script.
+
 ## Using Konveru
 
 1. Drag images or folders into the window, or use **Add Files** and **Add Folder**.
