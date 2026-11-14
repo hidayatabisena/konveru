@@ -1,127 +1,187 @@
 {
-  "sourceLanguage": "en",
-  "strings": {
-    "%@ is too large for WebP. The limit is 16,383 pixels per side.": {
-      "localizations": {
-        "id": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "%@ terlalu besar untuk WebP. Batasnya 16.383 piksel per sisi."
+  "sourceLanguage" : "en",
+  "strings" : {
+    "—" : {
+      "localizations" : {
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "—"
           }
         }
       }
     },
-    "%@ was written but couldn’t be read back, so it was removed. Retry the conversion.": {
-      "localizations": {
-        "id": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "%@ sudah ditulis tetapi tidak dapat dibaca ulang, jadi dihapus. Coba konversi lagi."
+    "“%@” has no JPEG, PNG or HEIC images, so nothing was added." : {
+      "localizations" : {
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "“%@” tidak berisi gambar JPEG, PNG, atau HEIC, jadi tidak ada yang ditambahkan."
           }
         }
       }
     },
-    "%@ · %@": {
-      "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "%1$@ · %2$@"
+    "“%@” is no longer available. Choose another destination." : {
+      "localizations" : {
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "“%@” tidak lagi tersedia. Pilih tujuan lain."
+          }
+        }
+      }
+    },
+    "“%@” is read-only. Choose another destination, then retry." : {
+      "localizations" : {
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "“%@” hanya-baca. Pilih tujuan lain, lalu coba lagi."
+          }
+        }
+      }
+    },
+    "“Konveru” beside sources" : {
+      "localizations" : {
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "“Konveru” di samping sumber"
+          }
+        }
+      }
+    },
+    "“Konveru” folder beside sources" : {
+      "localizations" : {
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Folder “Konveru” di samping sumber"
+          }
+        }
+      }
+    },
+    "%@ · %@" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%1$@ · %2$@"
           }
         },
-        "id": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "%1$@ · %2$@"
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%1$@ · %2$@"
           }
         }
       }
     },
-    "%@ · %lld already WebP will be skipped": {
-      "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "%1$@ · %2$lld already WebP will be skipped"
+    "%@ · %lld already WebP will be skipped" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%1$@ · %2$lld already WebP will be skipped"
           }
         },
-        "id": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "%1$@ · %2$lld sudah WebP akan dilewati"
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%1$@ · %2$lld sudah WebP akan dilewati"
           }
         }
       }
     },
-    "%@ · Existing names get a number · Originals never replaced": {
-      "localizations": {
-        "id": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "%@ · Nama yang sudah ada diberi nomor · File asli tidak pernah diganti"
+    "%@ · Existing names get a number · Originals never replaced" : {
+      "localizations" : {
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@ · Nama yang sudah ada diberi nomor · File asli tidak pernah diganti"
           }
         }
       }
     },
-    "%@ → %@": {
-      "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "%1$@ → %2$@"
+    "%@ → %@" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%1$@ → %2$@"
           }
         },
-        "id": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "%1$@ → %2$@"
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%1$@ → %2$@"
           }
         }
       }
     },
-    "%@, larger than the source": {
-      "localizations": {
-        "id": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "%@, lebih besar dari sumbernya"
+    "%@ is too large for WebP. The limit is 16,383 pixels per side." : {
+      "localizations" : {
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@ terlalu besar untuk WebP. Batasnya 16.383 piksel per sisi."
           }
         }
       }
     },
-    "%lld canceled.": {
-      "localizations": {
-        "id": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "%lld dibatalkan."
+    "%@ was written but couldn’t be read back, so it was removed. Retry the conversion." : {
+      "localizations" : {
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@ sudah ditulis tetapi tidak dapat dibaca ulang, jadi dihapus. Coba konversi lagi."
           }
         }
       }
     },
-    "%lld files · %@": {
-      "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "%#@n@ · %2$@"
+    "%@, larger than the source" : {
+      "localizations" : {
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@, lebih besar dari sumbernya"
+          }
+        }
+      }
+    },
+    "%lld canceled." : {
+      "localizations" : {
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld dibatalkan."
+          }
+        }
+      }
+    },
+    "%lld files · %@" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%#@n@ · %2$@"
           },
-          "substitutions": {
-            "n": {
-              "argNum": 1,
-              "formatSpecifier": "lld",
-              "variations": {
-                "plural": {
-                  "one": {
-                    "stringUnit": {
-                      "state": "translated",
-                      "value": "%arg file"
+          "substitutions" : {
+            "n" : {
+              "argNum" : 1,
+              "formatSpecifier" : "lld",
+              "variations" : {
+                "plural" : {
+                  "one" : {
+                    "stringUnit" : {
+                      "state" : "translated",
+                      "value" : "%arg file"
                     }
                   },
-                  "other": {
-                    "stringUnit": {
-                      "state": "translated",
-                      "value": "%arg files"
+                  "other" : {
+                    "stringUnit" : {
+                      "state" : "translated",
+                      "value" : "%arg files"
                     }
                   }
                 }
@@ -129,37 +189,37 @@
             }
           }
         },
-        "id": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "%1$lld file · %2$@"
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%1$lld file · %2$@"
           }
         }
       }
     },
-    "%lld files → %@": {
-      "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "%#@n@ → %2$@"
+    "%lld files → %@" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%#@n@ → %2$@"
           },
-          "substitutions": {
-            "n": {
-              "argNum": 1,
-              "formatSpecifier": "lld",
-              "variations": {
-                "plural": {
-                  "one": {
-                    "stringUnit": {
-                      "state": "translated",
-                      "value": "%arg file"
+          "substitutions" : {
+            "n" : {
+              "argNum" : 1,
+              "formatSpecifier" : "lld",
+              "variations" : {
+                "plural" : {
+                  "one" : {
+                    "stringUnit" : {
+                      "state" : "translated",
+                      "value" : "%arg file"
                     }
                   },
-                  "other": {
-                    "stringUnit": {
-                      "state": "translated",
-                      "value": "%arg files"
+                  "other" : {
+                    "stringUnit" : {
+                      "state" : "translated",
+                      "value" : "%arg files"
                     }
                   }
                 }
@@ -167,37 +227,37 @@
             }
           }
         },
-        "id": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "%1$lld file → %2$@"
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%1$lld file → %2$@"
           }
         }
       }
     },
-    "%lld items can’t be converted (%@) and weren’t added.": {
-      "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "%#@n@ (%2$@) and weren’t added."
+    "%lld items can’t be converted (%@) and weren’t added." : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%#@n@ (%2$@) and weren’t added."
           },
-          "substitutions": {
-            "n": {
-              "argNum": 1,
-              "formatSpecifier": "lld",
-              "variations": {
-                "plural": {
-                  "one": {
-                    "stringUnit": {
-                      "state": "translated",
-                      "value": "%arg item can’t be converted"
+          "substitutions" : {
+            "n" : {
+              "argNum" : 1,
+              "formatSpecifier" : "lld",
+              "variations" : {
+                "plural" : {
+                  "one" : {
+                    "stringUnit" : {
+                      "state" : "translated",
+                      "value" : "%arg item can’t be converted"
                     }
                   },
-                  "other": {
-                    "stringUnit": {
-                      "state": "translated",
-                      "value": "%arg items can’t be converted"
+                  "other" : {
+                    "stringUnit" : {
+                      "state" : "translated",
+                      "value" : "%arg items can’t be converted"
                     }
                   }
                 }
@@ -205,37 +265,37 @@
             }
           }
         },
-        "id": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "%1$lld item tidak dapat dikonversi (%2$@) dan tidak ditambahkan."
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%1$lld item tidak dapat dikonversi (%2$@) dan tidak ditambahkan."
           }
         }
       }
     },
-    "%lld items in “%@” can’t be converted (%@) and weren’t added.": {
-      "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "%#@n@ in “%2$@” can’t be converted (%3$@) and weren’t added."
+    "%lld items in “%@” can’t be converted (%@) and weren’t added." : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%#@n@ in “%2$@” can’t be converted (%3$@) and weren’t added."
           },
-          "substitutions": {
-            "n": {
-              "argNum": 1,
-              "formatSpecifier": "lld",
-              "variations": {
-                "plural": {
-                  "one": {
-                    "stringUnit": {
-                      "state": "translated",
-                      "value": "%arg item"
+          "substitutions" : {
+            "n" : {
+              "argNum" : 1,
+              "formatSpecifier" : "lld",
+              "variations" : {
+                "plural" : {
+                  "one" : {
+                    "stringUnit" : {
+                      "state" : "translated",
+                      "value" : "%arg item"
                     }
                   },
-                  "other": {
-                    "stringUnit": {
-                      "state": "translated",
-                      "value": "%arg items"
+                  "other" : {
+                    "stringUnit" : {
+                      "state" : "translated",
+                      "value" : "%arg items"
                     }
                   }
                 }
@@ -243,69 +303,69 @@
             }
           }
         },
-        "id": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "%1$lld item di “%2$@” tidak dapat dikonversi (%3$@) dan tidak ditambahkan."
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%1$lld item di “%2$@” tidak dapat dikonversi (%3$@) dan tidak ditambahkan."
           }
         }
       }
     },
-    "%lld of %lld": {
-      "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "%1$lld of %2$lld"
+    "%lld of %lld" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%1$lld of %2$lld"
           }
         },
-        "id": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "%1$lld dari %2$lld"
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%1$lld dari %2$lld"
           }
         }
       }
     },
-    "%lld of %lld files": {
-      "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "%1$lld of %2$lld files"
+    "%lld of %lld files" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%1$lld of %2$lld files"
           }
         },
-        "id": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "%1$lld dari %2$lld file"
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%1$lld dari %2$lld file"
           }
         }
       }
     },
-    "%lld results are larger than their source. They’re marked in the list.": {
-      "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "%#@n@"
+    "%lld results are larger than their source. They’re marked in the list." : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%#@n@"
           },
-          "substitutions": {
-            "n": {
-              "argNum": 1,
-              "formatSpecifier": "lld",
-              "variations": {
-                "plural": {
-                  "one": {
-                    "stringUnit": {
-                      "state": "translated",
-                      "value": "%arg result is larger than its source. It’s marked in the list."
+          "substitutions" : {
+            "n" : {
+              "argNum" : 1,
+              "formatSpecifier" : "lld",
+              "variations" : {
+                "plural" : {
+                  "one" : {
+                    "stringUnit" : {
+                      "state" : "translated",
+                      "value" : "%arg result is larger than its source. It’s marked in the list."
                     }
                   },
-                  "other": {
-                    "stringUnit": {
-                      "state": "translated",
-                      "value": "%arg results are larger than their source. They’re marked in the list."
+                  "other" : {
+                    "stringUnit" : {
+                      "state" : "translated",
+                      "value" : "%arg results are larger than their source. They’re marked in the list."
                     }
                   }
                 }
@@ -313,469 +373,469 @@
             }
           }
         },
-        "id": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "%lld hasil lebih besar dari sumbernya. Ditandai di daftar."
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld hasil lebih besar dari sumbernya. Ditandai di daftar."
           }
         }
       }
     },
-    "Accepts JPEG, PNG and HEIC · Converts to WebP": {
-      "localizations": {
-        "id": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Menerima JPEG, PNG, dan HEIC · Dikonversi ke WebP"
+    "Accepts JPEG, PNG and HEIC · Converts to WebP" : {
+      "localizations" : {
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Menerima JPEG, PNG, dan HEIC · Dikonversi ke WebP"
           }
         }
       }
     },
-    "Add": {
-      "localizations": {
-        "id": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Tambah"
+    "Add" : {
+      "localizations" : {
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tambah"
           }
         }
       }
     },
-    "Add Files": {
-      "localizations": {
-        "id": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Tambah File"
+    "Add Files" : {
+      "localizations" : {
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tambah File"
           }
         }
       }
     },
-    "Add Files…": {
-      "localizations": {
-        "id": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Tambah File…"
+    "Add files to start a batch" : {
+      "localizations" : {
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tambahkan file untuk memulai"
           }
         }
       }
     },
-    "Add Files… (⌘O)": {
-      "localizations": {
-        "id": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Tambah File… (⌘O)"
+    "Add Files…" : {
+      "localizations" : {
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tambah File…"
           }
         }
       }
     },
-    "Add Folder": {
-      "localizations": {
-        "id": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Tambah Folder"
+    "Add Files… (⌘O)" : {
+      "localizations" : {
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tambah File… (⌘O)"
           }
         }
       }
     },
-    "Add Folder…": {
-      "localizations": {
-        "id": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Tambah Folder…"
+    "Add Folder" : {
+      "localizations" : {
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tambah Folder"
           }
         }
       }
     },
-    "Add Folder… (⇧⌘O)": {
-      "localizations": {
-        "id": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Tambah Folder… (⇧⌘O)"
+    "Add Folder…" : {
+      "localizations" : {
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tambah Folder…"
           }
         }
       }
     },
-    "Add files to start a batch": {
-      "localizations": {
-        "id": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Tambahkan file untuk memulai"
+    "Add Folder… (⇧⌘O)" : {
+      "localizations" : {
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tambah Folder… (⇧⌘O)"
           }
         }
       }
     },
-    "Already WebP": {
-      "localizations": {
-        "id": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Sudah WebP"
+    "Already WebP" : {
+      "localizations" : {
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sudah WebP"
           }
         }
       }
     },
-    "Balanced": {
-      "localizations": {
-        "id": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Seimbang"
+    "Balanced" : {
+      "localizations" : {
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Seimbang"
           }
         }
       }
     },
-    "Cancel": {
-      "localizations": {
-        "id": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Batal"
+    "Cancel" : {
+      "localizations" : {
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Batal"
           }
         }
       }
     },
-    "Canceled": {
-      "localizations": {
-        "id": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Dibatalkan"
+    "Canceled" : {
+      "localizations" : {
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Dibatalkan"
           }
         }
       }
     },
-    "Choose": {
-      "localizations": {
-        "id": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Pilih"
+    "Choose" : {
+      "localizations" : {
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pilih"
           }
         }
       }
     },
-    "Choose Folder…": {
-      "localizations": {
-        "id": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Pilih Folder…"
+    "Choose Folder…" : {
+      "localizations" : {
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pilih Folder…"
           }
         }
       }
     },
-    "Choose JPEG, PNG or HEIC images to convert.": {
-      "localizations": {
-        "id": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Pilih gambar JPEG, PNG, atau HEIC untuk dikonversi."
+    "Choose folders. Images inside, including subfolders, are added." : {
+      "localizations" : {
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pilih folder. Gambar di dalamnya, termasuk subfolder, akan ditambahkan."
           }
         }
       }
     },
-    "Choose folders. Images inside, including subfolders, are added.": {
-      "localizations": {
-        "id": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Pilih folder. Gambar di dalamnya, termasuk subfolder, akan ditambahkan."
+    "Choose JPEG, PNG or HEIC images to convert." : {
+      "localizations" : {
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pilih gambar JPEG, PNG, atau HEIC untuk dikonversi."
           }
         }
       }
     },
-    "Choose where to save converted files.": {
-      "localizations": {
-        "id": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Pilih lokasi penyimpanan file hasil konversi."
+    "Choose where to save converted files." : {
+      "localizations" : {
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pilih lokasi penyimpanan file hasil konversi."
           }
         }
       }
     },
-    "Clear Completed": {
-      "localizations": {
-        "id": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Bersihkan yang Selesai"
+    "Clear Completed" : {
+      "localizations" : {
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bersihkan yang Selesai"
           }
         }
       }
     },
-    "Compression": {
-      "localizations": {
-        "id": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Kompresi"
+    "Compression" : {
+      "localizations" : {
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kompresi"
           }
         }
       }
     },
-    "Conversion progress": {
-      "localizations": {
-        "id": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Progres konversi"
+    "Conversion progress" : {
+      "localizations" : {
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Progres konversi"
           }
         }
       }
     },
-    "Convert": {
-      "localizations": {
-        "id": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Konversi"
+    "Convert" : {
+      "localizations" : {
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Konversi"
           }
         }
       }
     },
-    "Converted": {
-      "localizations": {
-        "id": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Dikonversi"
+    "Converted" : {
+      "localizations" : {
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Dikonversi"
           }
         }
       }
     },
-    "Converted files only · sources kept": {
-      "localizations": {
-        "id": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Hanya file yang dikonversi · sumber tetap ada"
+    "Converted files only · sources kept" : {
+      "localizations" : {
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hanya file yang dikonversi · sumber tetap ada"
           }
         }
       }
     },
-    "Converting": {
-      "localizations": {
-        "id": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Mengonversi"
+    "Converting" : {
+      "localizations" : {
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mengonversi"
           }
         }
       }
     },
-    "Converting %lld of %lld": {
-      "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Converting %1$lld of %2$lld"
+    "Converting “%@”…" : {
+      "localizations" : {
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mengonversi “%@”…"
+          }
+        }
+      }
+    },
+    "Converting %lld of %lld" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Converting %1$lld of %2$lld"
           }
         },
-        "id": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Mengonversi %1$lld dari %2$lld"
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mengonversi %1$lld dari %2$lld"
           }
         }
       }
     },
-    "Converting “%@”…": {
-      "localizations": {
-        "id": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Mengonversi “%@”…"
+    "Couldn’t add metadata to %@. Try again without keeping metadata." : {
+      "localizations" : {
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tidak dapat menambahkan metadata ke %@. Coba lagi tanpa menyimpan metadata."
           }
         }
       }
     },
-    "Couldn’t add metadata to %@. Try again without keeping metadata.": {
-      "localizations": {
-        "id": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Tidak dapat menambahkan metadata ke %@. Coba lagi tanpa menyimpan metadata."
+    "Couldn’t convert %@ to WebP." : {
+      "localizations" : {
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tidak dapat mengonversi %@ ke WebP."
           }
         }
       }
     },
-    "Couldn’t convert %@ to WebP.": {
-      "localizations": {
-        "id": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Tidak dapat mengonversi %@ ke WebP."
+    "Couldn’t convert %@." : {
+      "localizations" : {
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tidak dapat mengonversi %@."
           }
         }
       }
     },
-    "Couldn’t convert %@.": {
-      "localizations": {
-        "id": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Tidak dapat mengonversi %@."
+    "Couldn’t open %@ as an image. The file may be damaged." : {
+      "localizations" : {
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tidak dapat membuka %@ sebagai gambar. File mungkin rusak."
           }
         }
       }
     },
-    "Couldn’t open %@ as an image. The file may be damaged.": {
-      "localizations": {
-        "id": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Tidak dapat membuka %@ sebagai gambar. File mungkin rusak."
+    "Couldn’t read %@. Check file access, then retry." : {
+      "localizations" : {
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tidak dapat membaca %@. Periksa akses file, lalu coba lagi."
           }
         }
       }
     },
-    "Couldn’t read %@. Check file access, then retry.": {
-      "localizations": {
-        "id": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Tidak dapat membaca %@. Periksa akses file, lalu coba lagi."
-          }
-        }
-      }
-    },
-    "Couldn’t save %@ to “%@”. Check the destination, then retry.": {
-      "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Couldn’t save %1$@ to “%2$@”. Check the destination, then retry."
+    "Couldn’t save %@ to “%@”. Check the destination, then retry." : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Couldn’t save %1$@ to “%2$@”. Check the destination, then retry."
           }
         },
-        "id": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Tidak dapat menyimpan %1$@ ke “%2$@”. Periksa tujuan, lalu coba lagi."
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tidak dapat menyimpan %1$@ ke “%2$@”. Periksa tujuan, lalu coba lagi."
           }
         }
       }
     },
-    "Custom": {
-      "localizations": {
-        "id": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Khusus"
+    "Custom" : {
+      "localizations" : {
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Khusus"
           }
         }
       }
     },
-    "Destination": {
-      "localizations": {
-        "id": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Tujuan"
+    "Destination" : {
+      "localizations" : {
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tujuan"
           }
         }
       }
     },
-    "Dismiss": {
-      "localizations": {
-        "id": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Tutup"
+    "Dismiss" : {
+      "localizations" : {
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tutup"
           }
         }
       }
     },
-    "Done": {
-      "localizations": {
-        "id": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Selesai"
+    "Done" : {
+      "localizations" : {
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Selesai"
           }
         }
       }
     },
-    "Drop files to convert": {
-      "localizations": {
-        "id": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Letakkan file untuk dikonversi"
+    "Drop files to convert" : {
+      "localizations" : {
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Letakkan file untuk dikonversi"
           }
         }
       }
     },
-    "Drop target. Drop JPEG, PNG or HEIC files or folders here.": {
-      "localizations": {
-        "id": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Area letak. Letakkan file atau folder JPEG, PNG, atau HEIC di sini."
+    "Drop target. Drop JPEG, PNG or HEIC files or folders here." : {
+      "localizations" : {
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Area letak. Letakkan file atau folder JPEG, PNG, atau HEIC di sini."
           }
         }
       }
     },
-    "Failed": {
-      "localizations": {
-        "id": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Gagal"
+    "Failed" : {
+      "localizations" : {
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Gagal"
           }
         }
       }
     },
-    "Files from added folders keep their subfolders inside the destination.": {
-      "localizations": {
-        "id": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "File dari folder yang ditambahkan mempertahankan subfoldernya di tujuan."
+    "Files from added folders keep their subfolders inside the destination." : {
+      "localizations" : {
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "File dari folder yang ditambahkan mempertahankan subfoldernya di tujuan."
           }
         }
       }
     },
-    "Finished": {
-      "localizations": {
-        "id": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Selesai"
+    "Finished" : {
+      "localizations" : {
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Selesai"
           }
         }
       }
     },
-    "Finished · %lld need attention": {
-      "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Finished · %#@n@"
+    "Finished · %lld need attention" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Finished · %#@n@"
           },
-          "substitutions": {
-            "n": {
-              "argNum": 1,
-              "formatSpecifier": "lld",
-              "variations": {
-                "plural": {
-                  "one": {
-                    "stringUnit": {
-                      "state": "translated",
-                      "value": "%arg needs attention"
+          "substitutions" : {
+            "n" : {
+              "argNum" : 1,
+              "formatSpecifier" : "lld",
+              "variations" : {
+                "plural" : {
+                  "one" : {
+                    "stringUnit" : {
+                      "state" : "translated",
+                      "value" : "%arg needs attention"
                     }
                   },
-                  "other": {
-                    "stringUnit": {
-                      "state": "translated",
-                      "value": "%arg need attention"
+                  "other" : {
+                    "stringUnit" : {
+                      "state" : "translated",
+                      "value" : "%arg need attention"
                     }
                   }
                 }
@@ -783,666 +843,618 @@
             }
           }
         },
-        "id": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Selesai · %lld perlu perhatian"
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Selesai · %lld perlu perhatian"
           }
         }
       }
     },
-    "Finished. %lld converted, %lld skipped, %lld failed.": {
-      "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Finished. %1$lld converted, %2$lld skipped, %3$lld failed."
-          }
-        },
-        "id": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Selesai. %1$lld dikonversi, %2$lld dilewati, %3$lld gagal."
-          }
-        }
-      }
-    },
-    "Format": {
-      "localizations": {
-        "id": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Format"
-          }
-        }
-      }
-    },
-    "Hide Options": {
-      "localizations": {
-        "id": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Sembunyikan Opsi"
-          }
-        }
-      }
-    },
-    "Higher Quality": {
-      "localizations": {
-        "id": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Kualitas Lebih Tinggi"
-          }
-        }
-      }
-    },
-    "Higher quality": {
-      "localizations": {
-        "id": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Kualitas lebih tinggi"
-          }
-        }
-      }
-    },
-    "If a file already exists, a number is added — e.g. “IMG_2041 2.webp”. Originals are never replaced.": {
-      "localizations": {
-        "id": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Jika file sudah ada, nomor ditambahkan — mis. “IMG_2041 2.webp”. File asli tidak pernah diganti."
-          }
-        }
-      }
-    },
-    "Items that need attention": {
-      "localizations": {
-        "id": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Item yang perlu perhatian"
-          }
-        }
-      }
-    },
-    "Keep other metadata": {
-      "localizations": {
-        "id": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Simpan metadata lain"
-          }
-        }
-      }
-    },
-    "Keep subfolder structure": {
-      "localizations": {
-        "id": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Pertahankan struktur subfolder"
-          }
-        }
-      }
-    },
-    "Konveru": {
-      "localizations": {
-        "id": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Konveru"
-          }
-        }
-      }
-    },
-    "Konveru can’t save to “%@”. Choose another destination or check the folder’s permissions, then retry.": {
-      "localizations": {
-        "id": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Konveru tidak dapat menyimpan ke “%@”. Pilih tujuan lain atau periksa izin folder, lalu coba lagi."
-          }
-        }
-      }
-    },
-    "Larger than the source": {
-      "localizations": {
-        "id": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Lebih besar dari sumbernya"
-          }
-        }
-      }
-    },
-    "Location data removed": {
-      "localizations": {
-        "id": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Data lokasi dihapus"
-          }
-        }
-      }
-    },
-    "Lossless": {
-      "localizations": {
-        "id": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Lossless"
-          }
-        }
-      }
-    },
-    "Metadata": {
-      "localizations": {
-        "id": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Metadata"
-          }
-        }
-      }
-    },
-    "Metadata kept": {
-      "localizations": {
-        "id": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Metadata disimpan"
-          }
-        }
-      }
-    },
-    "Metadata removed": {
-      "localizations": {
-        "id": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Metadata dihapus"
-          }
-        }
-      }
-    },
-    "More Options": {
-      "localizations": {
-        "id": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Opsi Lainnya"
-          }
-        }
-      }
-    },
-    "More Options…": {
-      "localizations": {
-        "id": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Opsi Lainnya…"
-          }
-        }
-      }
-    },
-    "Name": {
-      "localizations": {
-        "id": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Nama"
-          }
-        }
-      }
-    },
-    "No files": {
-      "localizations": {
-        "id": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Tidak ada file"
-          }
-        }
-      }
-    },
-    "No output": {
-      "localizations": {
-        "id": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Tidak ada keluaran"
-          }
-        }
-      }
-    },
-    "No result": {
-      "localizations": {
-        "id": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Tidak ada hasil"
-          }
-        }
-      }
-    },
-    "Not enough space on “%@” to write %@. Free up space, then retry.": {
-      "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Not enough space on “%1$@” to write %2$@. Free up space, then retry."
+    "Finished. %lld converted, %lld skipped, %lld failed." : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Finished. %1$lld converted, %2$lld skipped, %3$lld failed."
           }
         },
-        "id": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Ruang di “%1$@” tidak cukup untuk menulis %2$@. Kosongkan ruang, lalu coba lagi."
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Selesai. %1$lld dikonversi, %2$lld dilewati, %3$lld gagal."
           }
         }
       }
     },
-    "Nothing was converted": {
-      "localizations": {
-        "id": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Tidak ada yang dikonversi"
+    "Format" : {
+      "localizations" : {
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Format"
           }
         }
       }
     },
-    "Options are locked while converting.": {
-      "localizations": {
-        "id": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Opsi dikunci selama konversi."
+    "Hide Options" : {
+      "localizations" : {
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sembunyikan Opsi"
           }
         }
       }
     },
-    "Or add files and folders from your Mac.": {
-      "localizations": {
-        "id": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Atau tambahkan file dan folder dari Mac Anda."
+    "Higher quality" : {
+      "localizations" : {
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kualitas lebih tinggi"
           }
         }
       }
     },
-    "Output": {
-      "localizations": {
-        "id": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Keluaran"
+    "Higher Quality" : {
+      "localizations" : {
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kualitas Lebih Tinggi"
           }
         }
       }
     },
-    "Quality": {
-      "localizations": {
-        "id": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Kualitas"
+    "If a file already exists, a number is added — e.g. “IMG_2041 2.webp”. Originals are never replaced." : {
+      "localizations" : {
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Jika file sudah ada, nomor ditambahkan — mis. “IMG_2041 2.webp”. File asli tidak pernah diganti."
           }
         }
       }
     },
-    "Queued": {
-      "localizations": {
-        "id": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Dalam antrean"
+    "Items that need attention" : {
+      "localizations" : {
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Item yang perlu perhatian"
           }
         }
       }
     },
-    "Re-encode": {
-      "localizations": {
-        "id": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Enkode ulang"
+    "Keep other metadata" : {
+      "localizations" : {
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Simpan metadata lain"
           }
         }
       }
     },
-    "Re-encode as WebP": {
-      "localizations": {
-        "id": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Enkode Ulang sebagai WebP"
+    "Keep subfolder structure" : {
+      "localizations" : {
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pertahankan struktur subfolder"
           }
         }
       }
     },
-    "Ready": {
-      "localizations": {
-        "id": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Siap"
+    "Konveru" : {
+      "localizations" : {
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Konveru"
           }
         }
       }
     },
-    "Remove converted and skipped items from the list. Files stay on disk.": {
-      "localizations": {
-        "id": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Hapus item yang sudah dikonversi dan dilewati dari daftar. File tetap ada di disk."
+    "Konveru can’t save to “%@”. Choose another destination or check the folder’s permissions, then retry." : {
+      "localizations" : {
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Konveru tidak dapat menyimpan ke “%@”. Pilih tujuan lain atau periksa izin folder, lalu coba lagi."
           }
         }
       }
     },
-    "Remove from Queue": {
-      "localizations": {
-        "id": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Hapus dari Antrean"
+    "Larger than the source" : {
+      "localizations" : {
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Lebih besar dari sumbernya"
           }
         }
       }
     },
-    "Remove location data": {
-      "localizations": {
-        "id": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Hapus data lokasi"
+    "Location data removed" : {
+      "localizations" : {
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Data lokasi dihapus"
           }
         }
       }
     },
-    "Result": {
-      "localizations": {
-        "id": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Hasil"
+    "Lossless" : {
+      "localizations" : {
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Lossless"
           }
         }
       }
     },
-    "Retry": {
-      "localizations": {
-        "id": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Coba Lagi"
+    "Metadata" : {
+      "localizations" : {
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Metadata"
           }
         }
       }
     },
-    "Retry Failed": {
-      "localizations": {
-        "id": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Coba Lagi yang Gagal"
+    "Metadata kept" : {
+      "localizations" : {
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Metadata disimpan"
           }
         }
       }
     },
-    "Reveal Results": {
-      "localizations": {
-        "id": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Tampilkan Hasil"
+    "Metadata removed" : {
+      "localizations" : {
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Metadata dihapus"
           }
         }
       }
     },
-    "Reveal in Finder": {
-      "localizations": {
-        "id": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Tampilkan di Finder"
+    "More Options" : {
+      "localizations" : {
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Opsi Lainnya"
           }
         }
       }
     },
-    "Save to": {
-      "localizations": {
-        "id": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Simpan ke"
+    "More Options…" : {
+      "localizations" : {
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Opsi Lainnya…"
           }
         }
       }
     },
-    "Saved to %@": {
-      "localizations": {
-        "id": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Disimpan ke %@"
+    "Name" : {
+      "localizations" : {
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nama"
           }
         }
       }
     },
-    "Show Details": {
-      "localizations": {
-        "id": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Tampilkan Detail"
+    "no extension" : {
+      "localizations" : {
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "tanpa ekstensi"
           }
         }
       }
     },
-    "Show Items": {
-      "localizations": {
-        "id": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Tampilkan Item"
+    "No files" : {
+      "localizations" : {
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tidak ada file"
           }
         }
       }
     },
-    "Show Options": {
-      "localizations": {
-        "id": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Tampilkan Opsi"
+    "No output" : {
+      "localizations" : {
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tidak ada keluaran"
           }
         }
       }
     },
-    "Show or hide options (⌥⌘O)": {
-      "localizations": {
-        "id": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Tampilkan atau sembunyikan opsi (⌥⌘O)"
+    "No result" : {
+      "localizations" : {
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tidak ada hasil"
           }
         }
       }
     },
-    "Size": {
-      "localizations": {
-        "id": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Ukuran"
+    "Not enough space on “%@” to write %@. Free up space, then retry." : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Not enough space on “%1$@” to write %2$@. Free up space, then retry."
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ruang di “%1$@” tidak cukup untuk menulis %2$@. Kosongkan ruang, lalu coba lagi."
           }
         }
       }
     },
-    "Skip Already WebP": {
-      "localizations": {
-        "id": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Lewati yang Sudah WebP"
+    "Nothing was converted" : {
+      "localizations" : {
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tidak ada yang dikonversi"
           }
         }
       }
     },
-    "Skipped": {
-      "localizations": {
-        "id": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Dilewati"
+    "Options are locked while converting." : {
+      "localizations" : {
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Opsi dikunci selama konversi."
           }
         }
       }
     },
-    "Smaller File": {
-      "localizations": {
-        "id": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "File Lebih Kecil"
+    "Or add files and folders from your Mac." : {
+      "localizations" : {
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Atau tambahkan file dan folder dari Mac Anda."
           }
         }
       }
     },
-    "Smaller file": {
-      "localizations": {
-        "id": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "File lebih kecil"
+    "Output" : {
+      "localizations" : {
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Keluaran"
           }
         }
       }
     },
-    "Status": {
-      "localizations": {
-        "id": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Status"
+    "Press Space to open Quick Look" : {
+      "comment" : "A description of how to open a file using Quick Look.",
+      "isCommentAutoGenerated" : true
+    },
+    "Preview of %@" : {
+      "comment" : "A label that describes the purpose of the preview. The argument is the name of the item being previewed.",
+      "isCommentAutoGenerated" : true
+    },
+    "Quality" : {
+      "localizations" : {
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kualitas"
           }
         }
       }
     },
-    "These files are in different folders, so you’ll be asked to choose a destination.": {
-      "localizations": {
-        "id": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "File-file ini ada di folder berbeda, jadi Anda akan diminta memilih tujuan."
+    "Queued" : {
+      "localizations" : {
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Dalam antrean"
           }
         }
       }
     },
-    "Type": {
-      "localizations": {
-        "id": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Jenis"
+    "Quick Look" : {
+      "comment" : "A button that opens a Quick Look preview for the selected file.",
+      "isCommentAutoGenerated" : true
+    },
+    "Re-encode" : {
+      "localizations" : {
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Enkode ulang"
           }
         }
       }
     },
-    "Used when all files share one folder. Otherwise you’ll be asked to choose one.": {
-      "localizations": {
-        "id": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Dipakai jika semua file ada di satu folder. Jika tidak, Anda akan diminta memilih."
+    "Re-encode as WebP" : {
+      "localizations" : {
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Enkode Ulang sebagai WebP"
           }
         }
       }
     },
-    "What can be kept depends on the source format. The color profile is always kept.": {
-      "localizations": {
-        "id": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Yang dapat disimpan bergantung pada format sumber. Profil warna selalu disimpan."
+    "Ready" : {
+      "localizations" : {
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Siap"
           }
         }
       }
     },
-    "no extension": {
-      "localizations": {
-        "id": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "tanpa ekstensi"
+    "Remove converted and skipped items from the list. Files stay on disk." : {
+      "localizations" : {
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hapus item yang sudah dikonversi dan dilewati dari daftar. File tetap ada di disk."
           }
         }
       }
     },
-    "—": {
-      "localizations": {
-        "id": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "—"
+    "Remove from Queue" : {
+      "localizations" : {
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hapus dari Antrean"
           }
         }
       }
     },
-    "“%@” has no JPEG, PNG or HEIC images, so nothing was added.": {
-      "localizations": {
-        "id": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "“%@” tidak berisi gambar JPEG, PNG, atau HEIC, jadi tidak ada yang ditambahkan."
+    "Remove location data" : {
+      "localizations" : {
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hapus data lokasi"
           }
         }
       }
     },
-    "“%@” is no longer available. Choose another destination.": {
-      "localizations": {
-        "id": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "“%@” tidak lagi tersedia. Pilih tujuan lain."
+    "Result" : {
+      "localizations" : {
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hasil"
           }
         }
       }
     },
-    "“%@” is read-only. Choose another destination, then retry.": {
-      "localizations": {
-        "id": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "“%@” hanya-baca. Pilih tujuan lain, lalu coba lagi."
+    "Retry" : {
+      "localizations" : {
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Coba Lagi"
           }
         }
       }
     },
-    "“Konveru” beside sources": {
-      "localizations": {
-        "id": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "“Konveru” di samping sumber"
+    "Retry Failed" : {
+      "localizations" : {
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Coba Lagi yang Gagal"
           }
         }
       }
     },
-    "“Konveru” folder beside sources": {
-      "localizations": {
-        "id": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Folder “Konveru” di samping sumber"
+    "Reveal in Finder" : {
+      "localizations" : {
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tampilkan di Finder"
+          }
+        }
+      }
+    },
+    "Reveal Results" : {
+      "localizations" : {
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tampilkan Hasil"
+          }
+        }
+      }
+    },
+    "Save to" : {
+      "localizations" : {
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Simpan ke"
+          }
+        }
+      }
+    },
+    "Saved to %@" : {
+      "localizations" : {
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Disimpan ke %@"
+          }
+        }
+      }
+    },
+    "Show Details" : {
+      "localizations" : {
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tampilkan Detail"
+          }
+        }
+      }
+    },
+    "Show Items" : {
+      "localizations" : {
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tampilkan Item"
+          }
+        }
+      }
+    },
+    "Show Options" : {
+      "localizations" : {
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tampilkan Opsi"
+          }
+        }
+      }
+    },
+    "Show or hide options (⌥⌘O)" : {
+      "localizations" : {
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tampilkan atau sembunyikan opsi (⌥⌘O)"
+          }
+        }
+      }
+    },
+    "Size" : {
+      "localizations" : {
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ukuran"
+          }
+        }
+      }
+    },
+    "Skip Already WebP" : {
+      "localizations" : {
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Lewati yang Sudah WebP"
+          }
+        }
+      }
+    },
+    "Skipped" : {
+      "localizations" : {
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Dilewati"
+          }
+        }
+      }
+    },
+    "Smaller file" : {
+      "localizations" : {
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "File lebih kecil"
+          }
+        }
+      }
+    },
+    "Smaller File" : {
+      "localizations" : {
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "File Lebih Kecil"
+          }
+        }
+      }
+    },
+    "Status" : {
+      "localizations" : {
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Status"
+          }
+        }
+      }
+    },
+    "These files are in different folders, so you’ll be asked to choose a destination." : {
+      "localizations" : {
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "File-file ini ada di folder berbeda, jadi Anda akan diminta memilih tujuan."
+          }
+        }
+      }
+    },
+    "Type" : {
+      "localizations" : {
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Jenis"
+          }
+        }
+      }
+    },
+    "Used when all files share one folder. Otherwise you’ll be asked to choose one." : {
+      "localizations" : {
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Dipakai jika semua file ada di satu folder. Jika tidak, Anda akan diminta memilih."
+          }
+        }
+      }
+    },
+    "What can be kept depends on the source format. The color profile is always kept." : {
+      "localizations" : {
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Yang dapat disimpan bergantung pada format sumber. Profil warna selalu disimpan."
           }
         }
       }
     }
   },
-  "version": "1.0"
+  "version" : "1.1"
 }

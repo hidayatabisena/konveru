@@ -26,8 +26,13 @@ struct ContentView: View {
                     if showsOptions {
                         Divider()
                         ScrollView {
-                            OptionsForm(settings: queue.settings, queue: queue)
-                                .padding(16)
+                            VStack(alignment: .leading, spacing: 24) {
+                                if let item = selectedItem {
+                                    SelectionPreview(item: item)
+                                }
+                                OptionsForm(settings: queue.settings, queue: queue)
+                            }
+                            .padding(16)
                         }
                         .frame(width: 280)
                     }
@@ -124,6 +129,11 @@ struct ContentView: View {
             .help("Show or hide options (⌥⌘O)")
             .labelStyle(.iconOnly)
         }
+    }
+
+    private var selectedItem: QueueItem? {
+        guard queue.selection.count == 1 else { return nil }
+        return queue.items.first { queue.selection.contains($0.id) }
     }
 
     private var subtitle: String {

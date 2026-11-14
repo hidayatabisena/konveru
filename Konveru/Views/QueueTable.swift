@@ -1,8 +1,10 @@
+import QuickLook
 import SwiftUI
 
 struct QueueTable: View {
     @Bindable var queue: ConversionQueue
     let isCompact: Bool
+    @State private var quickLookURL: URL?
 
     var body: some View {
         let outputNames = queue.outputNames
@@ -65,12 +67,24 @@ struct QueueTable: View {
         } primaryAction: { ids in
             queue.revealInFinder(ids)
         }
+        .onKeyPress(.space) {
+            guard let url = selectedURLs.first else { return .ignored }
+            quickLookURL = quickLookURL == nil ? url : nil
+            return .handled
+        }
+        .quickLookPreview($quickLookURL, in: selectedURLs)
+    }
+
+    /// Selected files in table order, so Quick Look's arrows follow the list.
+    private var selectedURLs: [URL] {
+        queue.items.filter { queue.selection.contains($0.id) }.map(\.url)
     }
 
     @ViewBuilder
     private func rowMenu(_ ids: Set<QueueItem.ID>) -> some View {
         if !ids.isEmpty {
             let rows = queue.items.filter { ids.contains($0.id) }
+            Button("Quick Look") { quickLookURL = rows.first?.url }
             Button("Reveal in Finder") { queue.revealInFinder(ids) }
             if rows.contains(where: { $0.status.isFailed }) {
                 Button("Retry") { queue.retry(ids) }
